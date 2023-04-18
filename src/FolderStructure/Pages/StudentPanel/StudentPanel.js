@@ -6,10 +6,12 @@ import { FaUserGraduate } from 'react-icons/fa';
 import { MdFoodBank } from 'react-icons/md';
 import { AiTwotoneHome, AiOutlineSchedule } from 'react-icons/ai';
 import { BsCashCoin, BsFillPeopleFill } from 'react-icons/bs';
+import Navbar from '../../Components/Navbar/Navbar';
 
 const StudentPanel = () => {
     return (
         <div className='student-panel '>
+            <Navbar></Navbar>
             <div className="container shadow-xl">
                 <div className="left-section">
                     <div className="student-img flex justify-center items-center my-6">
