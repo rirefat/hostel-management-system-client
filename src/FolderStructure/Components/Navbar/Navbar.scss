@@ -1,0 +1,8 @@
+$max-width: 1440px;
+$universal-padding: 0 6rem; 
+
+.navbar-section{
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: $universal-padding;
+}
