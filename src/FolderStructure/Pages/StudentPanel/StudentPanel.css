@@ -1,7 +1,7 @@
 .student-panel {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 .student-panel .container {
   background-color: #f0f0f0;
@@ -35,5 +35,6 @@
   border-radius: 0 12px 12px 0;
 }
 .student-panel .container .navigation-panel a:hover {
-  background-color: #fce7d8;
+  background: linear-gradient(to right, #F05535, #E09031);
+  color: white;
 }/*# sourceMappingURL=StudentPanel.css.map */
