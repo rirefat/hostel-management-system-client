@@ -23,7 +23,7 @@ const StudentProfile = () => {
                         <tbody>
                             <tr>
                                 <td className='font-bold w-80'>Student Name</td>
-                                <td className='w-1/2'>{} {}</td>
+                                <td className='w-1/2'>{studentInfo.name}</td>
                                 <td><button className="btn btn-outline btn-info update-btn btn-sm">Update</button></td>
                             </tr>
                             <tr>
