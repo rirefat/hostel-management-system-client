@@ -4,12 +4,36 @@
   padding: 0 2rem;
 }
 .student-panel .container {
-  background-color: #f9f9f9;
+  background-color: #f0f0f0;
   width: 100%;
   height: 82vh;
   border-radius: 12px;
   overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  padding: 2rem 0;
 }
 .student-panel .container::-webkit-scrollbar {
   width: 2px;
+}
+.student-panel .container .navigation-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.student-panel .container .navigation-panel a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: white;
+  width: 85%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 0 12px 12px 0;
+}
+.student-panel .container .navigation-panel a:hover {
+  background-color: #fce7d8;
 }/*# sourceMappingURL=StudentPanel.css.map */

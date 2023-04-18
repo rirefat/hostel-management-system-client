@@ -1,0 +1,9 @@
+.table .update-btn {
+  border: 1px solid #EA5E34;
+  color: #EA5E34;
+}
+.table .update-btn:hover {
+  background-color: #EA5E34;
+  border: 1px solid #EA5E34;
+  color: #f9f9f9;
+}/*# sourceMappingURL=StudentProfile.css.map */
