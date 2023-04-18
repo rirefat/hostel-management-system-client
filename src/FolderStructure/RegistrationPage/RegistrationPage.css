@@ -1,7 +1,12 @@
 .registration-section {
   display: flex;
   justify-content: center;
+  padding: 3rem 0;
   align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8705882353), rgba(234, 94, 52, 0.2039215686)), url(../../../src/assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .registration-section .registration-form {
   display: flex;
@@ -12,6 +17,7 @@
   width: fit-content;
   padding: 4rem 2rem;
   border-radius: 12px;
+  background: white;
 }
 .registration-section .registration-form .main-container {
   display: grid;
