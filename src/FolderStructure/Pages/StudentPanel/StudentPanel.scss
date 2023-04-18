@@ -1,0 +1,23 @@
+$max-width: 1440px;
+$universal-padding: 0 2rem; 
+$primary-color: #EA5E34;
+$text-primary: #f9f9f9;
+$btn-hover-bg: #b52a19;
+
+.student-panel{
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: $universal-padding;
+
+    .container{
+        background-color: #f9f9f9;
+        width: 100%;
+        height: 82vh;
+        border-radius: 12px;
+        overflow-y: scroll;
+         
+        &::-webkit-scrollbar{
+            width: 2px;
+        }
+    }
+}

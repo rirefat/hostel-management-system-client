@@ -1,0 +1,15 @@
+.student-panel {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.student-panel .container {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 82vh;
+  border-radius: 12px;
+  overflow-y: scroll;
+}
+.student-panel .container::-webkit-scrollbar {
+  width: 2px;
+}/*# sourceMappingURL=StudentPanel.css.map */
