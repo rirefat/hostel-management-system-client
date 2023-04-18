@@ -1,0 +1,28 @@
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-section .login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  width: fit-content;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+.login-section .login-form button {
+  background-color: #EA5E34;
+  border: transparent;
+  color: #f9f9f9;
+  padding: 0 2.5rem;
+}
+.login-section .login-form button:hover {
+  background-color: #b52a19;
+}
+.login-section .login-form .highlighted-text:hover {
+  color: #EA5E34;
+  font-weight: 500;
+}/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,48 @@
+$max-width: 1440px;
+$universal-padding: 0 6rem; 
+$primary-color: #EA5E34;
+$text-primary: #f9f9f9;
+$btn-hover-bg: #b52a19;
+
+.registration-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .registration-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        width: fit-content;
+        padding: 4rem 2rem;
+        border-radius: 12px;
+
+        .main-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+
+        button{
+            background-color: $primary-color;
+            border: transparent;
+            color: $text-primary;
+            padding: 0 2.5rem;
+
+            &:hover{
+                background-color: $btn-hover-bg;
+            }
+
+        }
+        .highlighted-text{
+
+            &:hover{
+                color: $primary-color;
+                font-weight: 500;
+            }
+        }
+    }
+}
