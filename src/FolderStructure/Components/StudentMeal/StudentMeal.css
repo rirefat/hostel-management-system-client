@@ -1,0 +1,14 @@
+.student-meal .meal-container .meal {
+  width: 18rem;
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #F68B1F, #F68B1F);
+}
+.student-meal .meal-container .meal .icon, .student-meal .meal-container .meal h3 {
+  color: white;
+}/*# sourceMappingURL=StudentMeal.css.map */
