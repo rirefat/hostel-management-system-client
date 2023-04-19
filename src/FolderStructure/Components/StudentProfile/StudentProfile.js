@@ -2,15 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './StudentProfile.css';
 
 const StudentProfile = () => {
-    const [studentInfo, setStudentInfo] = useState({});
-
+    const [studentInfo, setStudentInfo] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/users/1")
-            .then(res => res.json())
-            .then(data => setStudentInfo(data))
-    }, []);
+        fetch('studentInfo.json')
+          .then(res => res.json())
+          .then(data => setStudentInfo(data))
+      }, []);
 
-    console.log(studentInfo.name)
+    console.log(studentInfo)
 
     return (
         <div className='student-profile'>
@@ -18,7 +17,7 @@ const StudentProfile = () => {
 
             <div className="info-container">
                 <div className="overflow-x-auto">
-                    <h2 className='text-xl my-4'>Student's Info</h2>
+                    <h2 className='text-xl my-4'>Student's Information</h2>
                     <table className="table w-full">
                         <tbody>
                             <tr>
@@ -54,7 +53,7 @@ const StudentProfile = () => {
                         </tbody>
                     </table>
 
-                    <h2 className='text-xl my-4'>Guardian's Info</h2>
+                    <h2 className='text-xl my-4'>Guardian's Information</h2>
                     <table className="table w-full">
                         <tbody>
                             <tr>
@@ -80,7 +79,7 @@ const StudentProfile = () => {
                         </tbody>
                     </table>
 
-                    <h2 className='text-xl my-4'>Academin Info</h2>
+                    <h2 className='text-xl my-4'>Academic Information</h2>
                     <table className="table w-full">
                         <tbody>
                             <tr>
